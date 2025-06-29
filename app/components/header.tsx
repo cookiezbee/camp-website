@@ -1,8 +1,12 @@
-export default function Header() {
+type HeaderProps = {
+  title: string;
+};
+
+export default function Header({ title }: HeaderProps) {
     return (
         <header className="w-full p-4 bg-gray-100 text-center">
             <h1 className="text-4xl font-bold">
-                Летний IT-лагерь для школьников
+                {title}
             </h1>
         </header>
     );

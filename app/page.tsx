@@ -5,7 +5,7 @@ import Button from './components/button';
 export default function Home() {
   return (
     <>
-      <Header/>
+      <Header title="Летний IT-лагерь для школьников"/>
 
       <main className="flex flex-col items-center p-12 gap-8">
         <img src="/vercel.svg" alt="Логотип" width={200} height={100}/>
